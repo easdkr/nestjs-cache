@@ -9,16 +9,10 @@ export interface RefreshableOptions {
   key?: string;
 
   /**
-   * cache ttl
-   * but if you set cron, ttl will be ignored
-   */
-  ttl?: number;
-
-  /**
    * cron pattern
    * example : 30 0 0 * * *
    */
-  cron?: string;
+  cron: string;
 
   /**
    * if you want to get instance of class, set this option
